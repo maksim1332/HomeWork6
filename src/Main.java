@@ -49,7 +49,7 @@ public class Main {
         int sum9 = 29000;
         int savings9 = 0;
         for (int i = 0; i < 12; i++) {
-            savings9 = savings9 + sum9 / 100;
+            savings9 = savings9 + savings9 / 100;
             savings9 = savings9 + sum9;
             System.out.println("Месяц " + i + " сумма накоплений равна " + savings9 + " рублей");
         }
