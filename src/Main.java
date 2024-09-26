@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!!");
@@ -60,5 +62,22 @@ public class Main {
             namber = 2 * i;
             System.out.println("2*" + i + "=" + namber);
         }
+        //+task
+        System.out.println("+Task-----------------------------------------------------------");
+        //=
+        System.out.println("Hello world!!");
+        System.out.println("Hello world!!!");
+        //--
+        System.out.print("Hello world!!");
+        System.out.print("Hello world!!!");
+        //--%
+        System.out.println();
+        int x = 4;
+        int y = 5;
+        System.out.printf("x=%d;y=%d\n", x, y);
+        //==%
+        System.out.println("Main.main");
+        System.out.println("args = " + Arrays.toString(args));
+        System.out.println("y = " + y);
     }
 }
